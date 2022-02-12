@@ -28,9 +28,15 @@ Tools: Python Supervised Machine Learning algorithms, imbalanced-learn and sciki
 
 ## Analyis 
 
+
 Oversampling
 - Naive Random Oversampling
+
+![BalancedRandomForestClassifier.PNG](BalancedRandomForestClassifier.PNG)
+
 - SMOTE Oversampling
+
+![SmoteOversampling.PNG](SmoteOversampling.PNG)
 
 Undersampling
 - ClusterCentroids resampler
