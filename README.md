@@ -40,11 +40,20 @@ Oversampling
 
 Undersampling
 - ClusterCentroids resampler
+
+![ClusterCentroidsUndersampling.PNG](ClusterCentroidsUndersampling.PNG)
+
 - SMOTEENN (Combination (Over and Under) Sampling
+![SmoteennCombinationOverUnderSampling.PNG](SmoteennCombinationOverUnderSampling.PNG
 
 Ensemble Learners
 - Balanced Random Forest Classifier
+
+![BalancedRandomForestClassifier.PNG](BalancedRandomForestClassifier.PNG)
+
 - Easy Ensemble AdaBoost Classifier
+
+![EasyEnsembleAdaBoostCassifier.PNG](EasyEnsembleAdaBoostCassifier.PNG)
 
 ## Summary
 
