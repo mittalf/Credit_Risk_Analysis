@@ -38,12 +38,14 @@ Oversampling
 
 ![SmoteOversampling.PNG](SmoteOversampling.PNG)
 
+
 Undersampling
 - ClusterCentroids resampler
 
 ![ClusterCentroidsUndersampling.PNG](ClusterCentroidsUndersampling.PNG)
 
 - SMOTEENN (Combination (Over and Under) Sampling
+
 ![SmoteennCombinationOverUnderSampling.PNG](SmoteennCombinationOverUnderSampling.PNG
 
 Ensemble Learners
@@ -53,12 +55,26 @@ Ensemble Learners
 
 - Easy Ensemble AdaBoost Classifier
 
-![EasyEnsembleAdaBoostCassifier.PNG](EasyEnsembleAdaBoostCassifier.PNG)
+![EasyEnsembleAdaBoostClassifier.PNG](EasyEnsembleAdaBoostClassifier.PNG)
+
 
 ## Summary
 
 
 Evaluate algorithm'sperformance and see how well the model predict data. 
+
+Random oversampling - Accuracy Score is 0.6573; precision is .01, F1 score is .02 for high-risk loans 
+Smote oversampling - While the Accuracy Score improved slightly (0.66224) over the Random Sampling, precision and F1 score for high-risk loans didn't improve.
+Undersampling - The results are worse with Accuracy Score of only 0.5442, precision remained same 0.01, F1 score decreased to .01
+SMOTEENN (combination - over and under) - While the Accuracy Score (0.6876) improved slightly, precision and F1 score for high-risk loans didn't improve.
+
+Balanced Random Forest Classifier - Accuracy score of 0.78855, precision .03, F1 score of .06
+Easy Ensemble AdaBoost Classifier - Accuracy Score of .93166, precision of high-risk 0.09, recall of 0.92, F1 score of 0.16
+
+SMOTEENN (Combination of Over and Under) Sampling technique performed the best as it gave the highest Accuracy Score of 0.6876, while the Precision (.01) and F1 Score (0.02) remained at par with other sampling techniques. 
+
+Easy Ensembel AdaBoost Classifier performed the best with the Accuracy Score of 93%.  However the precision for high-risk loans remained low (0.09).
+
 
 
 
